@@ -1,0 +1,31 @@
+﻿
+<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#UyeOl">
+    Yeni Hakkımızda Yazı Girişi
+</button>
+<div class="modal fade" id="UyeOl" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+            </div>
+            <form method="post" action="/About/AddAbout/">
+                <div class="modal-body">
+                    <label>Hakkımda Metin 1</label>
+                    <input type="text" name="AboutDetails1" class="form-control" />
+                    <br />
+                    <label>Hakkımda Metin 2</label>
+                    <input type="text" name="AboutDetails2" class="form-control" />
+                    <br />
+                    <label>Hakkımda Görsel 1</label>
+                    <input type="text" name="AboutImage1" class="form-control" />
+                    <br />
+                    <label>Hakkımda Görsel 2</label>
+                    <input type="text" name="AboutImage2" class="form-control" />
+                    <br />
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
